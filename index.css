@@ -1,4 +1,49 @@
-table, th, td {
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    margin: 4px;
+    border-radius: 9px;
+}
+
+img {
+    justify-content: flex-start;
+}
+
+.content {
+    flex-direction: row;
+    display: flex;
+}
+
+.content > div {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.table_person {
     border: 1px solid black;
     text-align: center;
+    border-collapse: collapse;
+}
+
+.tr1 {
+    background-color: #35A9DB;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 5px 10px;
 }

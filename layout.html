@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
 </head>
 <body>
-    
+    <nav class="container">
+        <img src="Patrick_Star.svg.png" class="test" width="50" height="50">
+        <div class="home">Home</div>
+        <div class="search">Search</div>
+        <div class="logout">Logout</div>
+    </nav>
+
+    <header>
+        <h1>Form Belajar</h1>
+        <p>Ini adalah website pertama</p>
+    </header>
+
+    <main class="content">
+        <div>
+            <h1>Form</h1>
+            <form action="" method="">
+                <label for="nama">Nama :</label>
+                <input id="name" type="text">
+                <br>
+                <label for="tanggal_lahir">Tanggal Lahir :</label>
+                <input id="tanggal_lahir" type="date">
+                <br>
+                <label for="jenis_kelamin">Jenis Kelamin :</label>
+                <input id="jenis_kelamin" type="radio">Laki-laki
+                <input id="jenis_kelamin" type="radio">Perempuan
+                <br>
+                <label for="pesan">Pesan :</label>
+                <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div>
+            <h1>Table</h1>
+            <br>
+            <table class="table_person" border="1">
+                <tr class="tr1">
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profile</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Fadil</td>
+                    <td>29/03/2000</td>
+                    <td>Laki - Laki</td>
+                    <td>Belajar buat website</td>
+                    <td><a href="">Klik disini</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ayu</td>
+                    <td>08/12/2003</td>
+                    <td>Perempuan</td>
+                    <td>Belajar buat website</td>
+                    <td><a href="">Klik disini</a></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>Revou 2024</p>
+    </footer>
 </body>
 </html>
